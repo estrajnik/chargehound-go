@@ -11,6 +11,7 @@ import (
 )
 
 // Wrapper for the Chargehound API disputes resource.
+// Test comment
 type Disputes struct {
 	client *Client
 }
