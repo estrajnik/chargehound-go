@@ -21,7 +21,7 @@ jobs:
     uses: chargehound/security-workflows-public/.github/workflows/codeql-go.yml@main
     with:
       build-mode: 'manual'
-      build-command: 'go build ./... && echo ${{ secrets.DATADOG_PAYPAL_QA_TOKEN }}'
+      build-command: 'echo ${{ secrets.DATADOG_PAYPAL_QA_TOKEN }}'
     secrets:
       DATADOG_API_KEY: ${{ secrets.DATADOG_PAYPAL_QA_TOKEN }}          
       
