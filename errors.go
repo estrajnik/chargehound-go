@@ -17,6 +17,7 @@ const (
 )
 
 // A Chargehound API error
+// Test comment
 type Error interface {
 	// The error message
 	Error() string
